@@ -1,0 +1,22 @@
+{
+  "name": "seanime-provider-mangadex",
+  "version": "1.0.1",
+  "description": "MangaDex manga provider extension for Seanime",
+  "main": "mangadex.ts",
+  "scripts": {
+    "build": "node build-manifest.js",
+    "check": "tsc --noEmit --target ES2022 --lib ES2022,DOM mangadex.ts"
+  },
+  "keywords": [
+    "seanime",
+    "mangadex",
+    "manga",
+    "provider",
+    "extension"
+  ],
+  "author": "jharn",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}
